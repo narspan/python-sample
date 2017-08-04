@@ -25,7 +25,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'straxanbot'
+    return 'strix bot'
 
 def handle(msg):
  content_type, chat_type, chat_id = telepot.glance(msg)
